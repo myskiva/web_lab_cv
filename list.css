@@ -1,0 +1,9 @@
+ol {
+    list-style: lower-roman;
+    counter-reset: cupcake;
+    padding-left: 32px;
+}
+
+ul {
+    list-style: square;
+}
