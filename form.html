@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Форма</title>
+</head>
+<body>
+    <form method="get" class="form">
+        <hr>
+        <div class="form">
+          <label for="first-name">First name: </label>
+          <input type="text" name="first-name" id="first-name" required>
+        </div>
+        <div class="form">
+          <label for="last-name">Last name: </label>
+          <input type="text" name="last-name" id="last-name" required>
+        </div>
+        <hr>
+        <span class="form">
+          <input type="submit" value="Button tag">
+        </span>
+        <span class="form">
+            <input type="submit" value="Input tag button type">
+        </span>
+        <hr>
+    </form>
+    <div>                  
+        <select name="country" autofocus>
+            <option disabled="disabled" selected="selected">В якій країні Ви живете?</option>
+            <option>Japan</option>
+            <option>Ukraine</option>
+            <option>Poland</option>
+        </select>
+    </div>
+    <hr>
+    <div>
+      <input type="radio" id="choice1" name="choice" value="male">
+      <label for="choice1">Male</label>
+    </div>
+    <div>
+      <input type="radio" id="choice2" name="choice" value="female">
+      <label for="choice2">Female</label>
+    </div>
+    <hr>
+    <div>
+        <input type="checkbox" id="check1" name="bike">
+        <label for="check1">I have a bike</label>
+    </div>
+    <div>
+        <input type="checkbox" id="check2" name="car">
+        <label for="check2">I have a car</label>
+    </div>
+    <hr>
+</body>
+</html>

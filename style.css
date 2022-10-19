@@ -1,6 +1,6 @@
 .main {
     width: 1200px;
-    height: 100%;
+    height: 2100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,7 +8,7 @@
 
 .left-part {
     width: 350px;
-    height: 2564px;
+    height: 2100px;
     display: flex;
     flex-direction: column;
     background-color: #1E1F26;
@@ -122,4 +122,21 @@ h1 {
     line-height: 32px;
     margin-left: 35px;
     color: #FFFFFF;
+}
+
+a:link {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+  
+a:visited {
+    color: #cdcdcd;
+}
+
+a:hover {
+    color: #D0E1F9;
+}
+  
+a:active {
+    color: #bccce1;
 }
